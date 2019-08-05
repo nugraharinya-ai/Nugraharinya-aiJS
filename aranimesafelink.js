@@ -122,7 +122,7 @@ function auto_safeconvert() {
     /*TAMBAH DISINI LINK POSTINGANNYA*/
     
     var daftarPostingan = [
-      "https://shizusafelink.blogspot.com/2019/08/cuman-loncatin.html",
+      "https://shizulink.blogspot.com/2019/08/proteclink.html",
     ];
     /* Jika ingin menambah postingan, copas saja */
 
