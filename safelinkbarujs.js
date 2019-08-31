@@ -1,4 +1,4 @@
-var Base64 = {
+ var Base64 = {
     _keyStr: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
     encode: function (input) {
         var output = "";
@@ -118,6 +118,15 @@ function auto_safeconvert() {
     a_to_vg = a_to_vf.length;
     var a_to_vh = false;
     var j = 0;
+
+    /*TAMBAH DISINI LINK POSTINGANNYA*/
+    
+    var daftarPostingan = [
+      "https://shizusafelink.blogspot.com/2019/08/cumanskipaja.html",
+    ];
+    /* Jika ingin menambah postingan, copas saja */
+
+    var randomPostingan = daftarPostingan[Math.floor(Math.random()*daftarPostingan.length)];
     var a_to_vi = "";
     for (var i = 0; i < a_to_va; i++) {
         a_to_vh = false;
@@ -131,7 +140,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "https://shizusafelink.blogspot.com/2019/08/cumanskipaja.html?url=" + encryptedUrl;
+            a_to_ve[i].href = randomPostingan + "?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
