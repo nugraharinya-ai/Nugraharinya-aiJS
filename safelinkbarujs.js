@@ -122,7 +122,7 @@ function auto_safeconvert() {
     /*TAMBAH DISINI LINK POSTINGANNYA*/
     
     var daftarPostingan = [
-      "https://aranimeidsafelink.blogspot.com/2019/08/convert-download-link.html",
+      "https://shizusafelink.blogspot.com/2019/08/cumanskipaja.html",
     ];
     /* Jika ingin menambah postingan, copas saja */
 
