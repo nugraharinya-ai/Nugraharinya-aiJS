@@ -122,7 +122,7 @@ function auto_safeconvert() {
     /*TAMBAH DISINI LINK POSTINGANNYA*/
     
     var daftarPostingan = [
-      "https://shizusafelink.blogspot.com/2019/08/cumanskipaja.html",
+      "http://shizusafelink.aranimeid.net/2019/11/meluncur.html",
     ];
     /* Jika ingin menambah postingan, copas saja */
 
