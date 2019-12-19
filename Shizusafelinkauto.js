@@ -31,7 +31,8 @@ if (!setting.pengecualian) {
 }
 var exception = exception();
 var hanyauntuk = hanyauntuk();
-var links =new Array();		
+var links =new Array();	
+var protected_links = "https://arlethdesign.blogspot.com/";
 function showurl(datajson){
 
 	var exceptionlength = exception.length;
